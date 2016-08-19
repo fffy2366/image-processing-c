@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\json">
+      <UniqueIdentifier>{09e68edd-4383-4c2b-ac51-b0317b3581d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -30,6 +33,12 @@
     <ClInclude Include="imagedetect.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json-forwards.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -39,6 +48,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="mysqltest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="facedetect.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

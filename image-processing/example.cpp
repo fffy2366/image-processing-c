@@ -39,7 +39,7 @@ int main1(int argc, char* argv[])
 	//load an image and convert it to gray (single-channel)
 	//Mat gray = imread("D:\\c\\ConsoleApplication1\\lena.png", CV_LOAD_IMAGE_GRAYSCALE); 
 	std::string str(argv[1]) ;
-	printf(argv[1]) ;
+	//printf(argv[1]) ;
 	string filename = argv[1] ;
 	Mat gray = imread("D:\\photo\\api\\"+filename, CV_LOAD_IMAGE_GRAYSCALE); 
 	

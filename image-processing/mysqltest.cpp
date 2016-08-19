@@ -9,7 +9,7 @@
 
 using namespace std;
 
-int main(int argc1, char* argv1[])
+int main2(int argc1, char* argv1[])
 {
     const char user[] = "root";         //username
     const char pswd[] = "1234";         //password

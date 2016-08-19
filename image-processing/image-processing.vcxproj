@@ -154,11 +154,16 @@
   <ItemGroup>
     <ClInclude Include="..\..\libfacedetection\include\facedetect-dll.h" />
     <ClInclude Include="imagedetect.h" />
+    <ClInclude Include="json-forwards.h" />
+    <ClInclude Include="json.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example.cpp" />
+    <ClCompile Include="facedetect.cpp" />
+    <ClCompile Include="json.cpp" />
+    <ClCompile Include="jsoncpp.cpp" />
     <ClCompile Include="mysqltest.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
